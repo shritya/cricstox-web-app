@@ -81,6 +81,7 @@ li {
   border: 1px 0 0 0 black solid;
   box-shadow: 0 0 9px grey;
   border-radius: 25px;
+  max-width: 38vw;
   width: 36vw;
   color: white;
   background-color: black;
