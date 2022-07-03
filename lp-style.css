@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&family=PT+Sans:ital@1&family=Poppins:wght@300&family=Source+Sans+Pro:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #1a1a1a;
+  /* border: 10px solid black; */
+  margin: 0;
+  padding: 0;
+}
+/* nav start here */
+header {
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  /* margin-bottom: 6%; */
+}
+nav {
+  padding: 10px 0 ;
+  margin: 0 auto;
+  width: 95vw;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  height: 20%;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  max-width: 13vw;
+}
+.nav-heading {
+  font-size: large;
+  font-weight: bolder;
+}
+.navsec-one {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.navlist-itm {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+}
+li {
+  list-style: none;
+}
+.navsec-three {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 35px;
+  align-items: center;
+}
+/* nav end here */
+/* ////////////////////////////////// */
+/* content start here */
+/* .emptyspace{
+  border: 10px solid black;
+  width: 100%;
+  border-radius: 25px;
+  margin: 0 0 3% 0 ;
+} */
+.login-page {
+  margin: 0 auto;
+  width: 99%;
+  height: 86.35vh;
+  text-align: center;
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 25px 25px 0 0 ;
+}
+.huehue {
+  height: 10vh;
+    display: flex;
+    padding-left: 10%;
+    align-items: center;
+}
+.responsive-logo {
+  visibility: hidden;
+}
+.lp-secone {
+  margin: 5% auto 0 auto;
+  border: 1px 0 0 0 black solid;
+  box-shadow: 0 0 9px grey;
+  border-radius: 25px;
+  width: 36vw;
+  color: white;
+  background-color: black;
+}
+.login-heading-one {
+  display: inline;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.lp-child {
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+  color: #000;
+  background-color: white;
+  border: 3px white solid;
+  border-radius: 25px 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.lf-span {
+  color: gray;
+}
+.lp-child-one {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+}
+.grey-txt-one{
+  color: grey;
+  padding: 18px;
+  border: 1px #E9E9E9 solid;
+  border-radius: 10px;
+  max-width: 40vw;
+}
+.grey-txt {
+  /* text-align: center; */
+  width: 70%;
+  color: grey;
+  padding: 18px;
+  border: 1px #E9E9E9 solid;
+  border-radius: 10px;
+}
+.greys-txt {
+  align-self: center;
+  width: 83%;
+  color: grey;
+  padding: 18px;
+  border: 1px #E9E9E9 solid;
+  border-radius: 10px;
+}
+button {
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+
+  border: 1px gray solid;
+  border-radius: 6px;
+  padding: 10px;
+  width: 90%;
+}
+.end-heading {
+  color: grey;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  width: 50vw;
+}
+
+
+@media screen and (max-width: 1024px) {
+  header {
+    display: none;
+  }
+
+  .navsec-three {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .navsec-one {
+    margin-bottom: 15px;
+  }
+  .lp-secone {
+    width: 100%;
+    border-radius: 0 0 26px 26px;
+    box-shadow: none;
+    margin: 0;
+  }
+  .lp-child{
+    /* border-radius: 20px 20px 0 0 ; */
+
+  }
+  .login-heading {
+    /* margin-top: 40px; */
+  }
+  .responsive-logo {
+    visibility: visible;
+    /* margin-top: 10px; */
+  }
+  .huehue {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    /* column-gap: 33vw; */
+    /* margin-top: 50px; */
+  }
+  .end{
+    /* margin:  10px auto 0 auto; */
+    text-align: center;
+  }
+  .end-heading {
+    width: 90vw;
+    font-size: 13px;
+    margin: 30px auto 0 auto;
+  }
+  .login-heading{
+    font-size: 13px;
+  }
+  button{
+    max-width: 90vw;
+  }
+  .greys-txt{
+    max-width: 65vw;
+  }
+  .login-page{
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100vh;
+  }
+}
